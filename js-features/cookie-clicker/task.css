@@ -1,0 +1,16 @@
+.clicker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.clicker__status {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.clicker__cookie {
+    cursor: pointer;
+    transition: width 0.2s, height 0.2s;
+}
