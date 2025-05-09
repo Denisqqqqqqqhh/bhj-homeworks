@@ -46,7 +46,7 @@
            return;
          }
        deactivateHole( activeHole );
-         activeHole = Math.floor( Math.random() );
+         activeHole = Math.floor( 1 + Math.random() * 9 );
          activateHole( activeHole );
          next();
        }, 800 );
