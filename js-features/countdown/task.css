@@ -1,0 +1,9 @@
+#status {
+ font-size: 24px;
+ margin: 20px;
+}
+
+#timer {
+ color: red;
+ font-weight: bold;
+}
